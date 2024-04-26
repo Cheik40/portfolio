@@ -19,6 +19,7 @@ import { Link } from "react-router-dom";
 import { SiGmail } from "react-icons/si";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
     const [position, setPosition] = useState(window.scrollY);
@@ -77,7 +78,7 @@ function Contact() {
                             djilyhoo@gmail.com
                         </div>
                     </div>
-                    <div className='box'>
+                    <div className='box boorderMidle'>
                         <div className='logoInstagram'>
                             <Link
                                 className='Link'
@@ -88,28 +89,28 @@ function Contact() {
                                 />
                             </Link>
                         </div>
-                        <h2 className='titleInstagram'>Par email</h2>
+                        <h2 className='titleInstagram'>Sur linkedin</h2>
                         <div className='instagram'>
                             Ecrivez-moi sur l'adresse Linkedin :<br />
                             djilyhoo@gmail.com
                         </div>
                     </div>
 
-                    <div className='box'>
-                        <div className=''>
+                    <div className='box boorderMidle'>
+                        <div className='logoGithub'>
                             <Link
                                 className='Link'
-                                to='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'
+                                to='https://github.com/Cheik40'
                             >
-                                <SiLinkedin
+                                <FaGithub
                                     style={{ width: "auto", height: "100%" }}
                                 />
                             </Link>
                         </div>
-                        <h2 className='titleInstagramd'>Par email</h2>
-                        <div className='instagrams'>
-                            Ecrivez-moi sur l'adresse Linkedin :<br />
-                            djilyhoo@gmail.com
+                        <h2 className='titleGithub'>Par github</h2>
+                        <div className='github'>
+                            Adresse github :<br />
+                            https://github.com/Cheik40
                         </div>
                     </div>
                 </div>
