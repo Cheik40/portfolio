@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bodyContact {
+    position: relative;
+    /* background: #000 transparent; */
+    /* border: 2px rgb(188, 88, 16) solid; */
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    /* background-image: url(../assets/aboutAntonia/appareilphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.titleDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    /* border: 2px rgb(10, 10, 10) solid; */
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.titleDescription h1 {
+    font-size: 2.4rem;
+    /* border: 2px rgb(21, 42, 177) solid; */
+    padding: 10px;
+}
+
+.descriptionHoraireContact {
+    font-size: 1.2rem;
+    /* border: 2px rgb(187, 64, 64) solid; */
+    padding: 10px;
+}
+
+.conteneurGridContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    /* border: 2px rgb(19, 237, 30) solid; */
+}
+
+.box {
+    border-bottom: 2px rgba(186, 192, 186, 0.88) solid;
+    border-top: 2px rgba(186, 192, 186, 0.88) solid;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.boorderMidle {
+    border-left: 2px rgba(186, 192, 186, 0.88) solid;
+    border-right: 2px rgba(186, 192, 186, 0.88) solid;
+}
+
+.logoTel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: 2px rgb(233, 19, 237) solid; */
+}
+
+.logoTel img {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    width: auto;
+    /* height: 90px; */
+    /* border: 2px rgb(233, 19, 237) solid; */
+}
+
+.titleTel {
+    /* border: 2px rgb(19, 237, 30) solid; */
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+}
+.telephone {
+    /* font-size: 1.4rem; */
+    /* border: 2px rgb(5, 11, 6) solid; */
+    text-align: center;
+    padding: 5px;
+}
+
+.logoMail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: 2px rgb(233, 19, 237) solid; */
+}
+
+.logoMail img {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    width: auto;
+    /* height: 90px; */
+    /* border: 2px rgb(233, 19, 237) solid; */
+}
+
+.titleMail {
+    font-size: 1.8rem;
+    /* border: 2px rgb(19, 237, 30) solid; */
+    text-align: center;
+    padding: 10px;
+}
+.mail {
+    /* font-size: 1.4rem; */
+    /* border: 2px rgb(5, 11, 6) solid; */
+    text-align: center;
+    padding: 5px;
+}
+
+.logoInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: 2px rgb(233, 19, 237) solid; */
+    box-sizing: border-box;
+}
+
+.logoInstagram .Link {
+    position: relative;
+    height: 100px;
+    background: #fff;
+    width: auto;
+    /* border: 2px rgb(233, 19, 237) solid; */
+}
+
+.titleInstagram {
+    font-size: 1.8rem;
+    /* border: 2px rgb(19, 237, 30) solid; */
+    text-align: center;
+    padding: 10px;
+}
+
+.instagram {
+    /* font-size: 1.4rem; */
+    /* border: 2px rgb(5, 11, 6) solid; */
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 794px) {
+    .bodyContact {
+        position: relative;
+    }
+    .conteneurGridContact {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 1fr;
+        /* border: 2px rgb(19, 237, 30) solid; */
+    }
+
+    .box {
+        border-bottom: 2px rgba(186, 192, 186, 0.88) solid;
+        border-top: 2px rgba(186, 192, 186, 0.88) solid;
+        color: #000;
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+
+    .boorderMidle {
+        border-left: 2px rgba(186, 192, 186, 0.88) solid;
+        border-right: 2px rgba(186, 192, 186, 0.88) solid;
+    }
+
+    .logoTel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .logoTel img {
+        position: relative;
+        height: 100%;
+        background: #fff;
+        width: auto;
+        /* height: 90px; */
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .titleTel {
+        /* border: 2px rgb(19, 237, 30) solid; */
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .telephone {
+        /* font-size: 1.4rem; */
+        /* border: 2px rgb(5, 11, 6) solid; */
+        text-align: center;
+        padding: 5px;
+    }
+
+    .logoMail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .logoMail img {
+        position: relative;
+        height: 100%;
+        background: #fff;
+        width: auto;
+        /* height: 90px; */
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .titleMail {
+        font-size: 1.8rem;
+        /* border: 2px rgb(19, 237, 30) solid; */
+        text-align: center;
+        padding: 10px;
+    }
+    .mail {
+        /* font-size: 1.4rem; */
+        /* border: 2px rgb(5, 11, 6) solid; */
+        text-align: center;
+        padding: 5px;
+    }
+
+    .logoInstagram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .logoInstagram .Link {
+        .logoInstagram img {
+            position: relative;
+            height: 100px;
+            background: #fff;
+            width: auto;
+            /* border: 2px rgb(233, 19, 237) solid; */
+        }
+        /* position: relative;
+        height: 100%;
+        background: #fff;
+        width: auto; */
+        /* height: 90px; */
+        /* border: 2px rgb(233, 19, 237) solid; */
+    }
+
+    .titleInstagram {
+        font-size: 1.8rem;
+        /* border: 2px rgb(19, 237, 30) solid; */
+        text-align: center;
+        padding: 10px;
+    }
+    .instagram {
+        /* font-size: 1.4rem; */
+        /* border: 2px rgb(5, 11, 6) solid; */
+        text-align: center;
+        padding: 5px;
+    }
+}
