@@ -22,9 +22,9 @@ import "../styles/skills.css";
 const imgCheikh = require("../assets/images/djily.png");
 function Skills() {
     return (
-        <div className='home'>
+        <div className='skills'>
             <NavBar />
-            <div className='bodyHome'>
+            <div className='bodySkills'>
                 <div className='boxImageCheikh'>
                     <img
                         className='imageCheikh'

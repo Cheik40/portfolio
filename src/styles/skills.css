@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.home {
+.skills {
     position: relative;
     /* background: #000 transparent; */
     /* border: 2px rgb(188, 88, 16) solid; */
@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-.bodyHome {
+.bodySkills {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -43,6 +43,7 @@
     height: 100%;
     cursor: default;
     background: #fff;
+    border-radius: 50%;
 }
 
 .description {
@@ -72,7 +73,7 @@
 }
 
 @media screen and (max-width: 1051px) {
-    .home {
+    .skills {
         position: relative;
         /* background: #000 transparent; */
         /* border: 2px rgb(188, 88, 16) solid; */
@@ -82,7 +83,7 @@
         box-sizing: border-box;
     }
 
-    .bodyHome {
+    .bodySkills {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -118,7 +119,7 @@
         width: 40%;
         margin: 10px;
         color: #3d3c3c;
-        /* border: #000 2px solid; */
+        border: #000 2px solid;
         font-size: 1.2rem;
     }
 
@@ -140,13 +141,13 @@
 
 .block {
     display: grid;
-    grid-template-columns: 150px 200px;
+    grid-template-columns: 200px 200px;
     grid-template-rows: 100px 100px 100px;
 }
 
 .iconJavascript {
     display: flex;
-    border: #3d3c3c 1px solid;
+    /* border: #3d3c3c 1px solid; */
     height: auto;
     align-items: center;
     margin: 30px;

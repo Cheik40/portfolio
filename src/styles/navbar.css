@@ -4,7 +4,7 @@
     justify-content: space-between;
     background: #fff;
     /* border: 1px solid #e7e3e3; */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01); */
     width: 100%;
 }
 
@@ -97,7 +97,7 @@ img {
         width: 300px;
         height: 100vh;
         background: #2a3839;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.06);
+        /* box-shadow: 0 40px 60px rgba(0, 0, 0, 0.06); */
         padding: 40px 0 0 20px;
         transition: 0.3s ease-in-out;
     }
