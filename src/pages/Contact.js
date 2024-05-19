@@ -85,7 +85,11 @@ function Contact() {
                                 to='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'
                             >
                                 <SiLinkedin
-                                    style={{ width: "auto", height: "100%" }}
+                                    style={{
+                                        width: "auto",
+                                        height: "100%",
+                                        color: "#3e3c3c",
+                                    }}
                                 />
                             </Link>
                         </div>
@@ -103,13 +107,17 @@ function Contact() {
                                 to='https://github.com/Cheik40'
                             >
                                 <FaGithub
-                                    style={{ width: "auto", height: "100%" }}
+                                    style={{
+                                        width: "auto",
+                                        height: "100%",
+                                        color: "#3e3c3c",
+                                    }}
                                 />
                             </Link>
                         </div>
-                        <h2 className='titleGithub'>Par github</h2>
+                        <h2 className='titleGithub'> Github</h2>
                         <div className='github'>
-                            Adresse github :<br />
+                            Mon github :<br />
                             https://github.com/Cheik40
                         </div>
                     </div>

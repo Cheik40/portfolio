@@ -16,6 +16,9 @@ import { SiHtml5 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGitAlt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { IoLogoSass } from "react-icons/io5";
+import { FaJava } from "react-icons/fa6";
+import { FaPython } from "react-icons/fa6";
 
 import NavBar from "../components/navbar/NavBar";
 import "../styles/skills.css";
@@ -70,6 +73,23 @@ function Skills() {
                                 style={{ width: "auto", height: "100%" }}
                             />
                             Bootstrap
+                        </div>
+
+                        <div className='iconJavascript'>
+                            <IoLogoSass
+                                style={{ width: "auto", height: "100%" }}
+                            />
+                            Sass
+                        </div>
+                        <div className='iconJavascript'>
+                            <FaJava style={{ width: "auto", height: "100%" }} />
+                            Java
+                        </div>
+                        <div className='iconJavascript'>
+                            <FaPython
+                                style={{ width: "auto", height: "100%" }}
+                            />
+                            Python
                         </div>
                     </div>
                 </div>

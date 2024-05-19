@@ -1,3 +1,7 @@
+* {
+    background: #fff;
+}
+
 .experiences-container {
     scrollbar-width: none;
     max-width: 800px;

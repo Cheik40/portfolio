@@ -1,3 +1,7 @@
+* {
+    background: #fff;
+}
+
 .navbar {
     display: flex;
     align-items: center;

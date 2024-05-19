@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #fff;
 }
 
 .skills {
@@ -63,6 +64,7 @@
     text-align: center;
     /* border: #000 2px solid; */
     margin: 10px;
+    margin-bottom: 10%;
     font-size: 5rem;
 }
 
@@ -141,7 +143,7 @@
 
 .block {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px 200px 200px;
     grid-template-rows: 100px 100px 100px;
 }
 
