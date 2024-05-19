@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cheik40/portfolio/static/css/main.3567ba87.css",
+    "main.js": "/Cheik40/portfolio/static/js/main.279262f7.js",
+    "static/js/453.1407b060.chunk.js": "/Cheik40/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/djily.png": "/Cheik40/portfolio/static/media/djily.e62e9331314e7f2e6cef.png",
+    "index.html": "/Cheik40/portfolio/index.html",
+    "main.3567ba87.css.map": "/Cheik40/portfolio/static/css/main.3567ba87.css.map",
+    "main.279262f7.js.map": "/Cheik40/portfolio/static/js/main.279262f7.js.map",
+    "453.1407b060.chunk.js.map": "/Cheik40/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3567ba87.css",
+    "static/js/main.279262f7.js"
+  ]
+}
