@@ -28,11 +28,7 @@ function Layout({ active }) {
                         compétence
                     </Link>
                 </li>
-                {/* <li>
-                    <Link className='Link' to='/projet'>
-                        projet
-                    </Link>
-                </li> */}
+
                 <li>
                     <Link
                         className={

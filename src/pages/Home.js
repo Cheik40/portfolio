@@ -13,7 +13,7 @@ function Home() {
                         alt='Cheikh NDIAYE'
                     />
                 </div>
-                <div className='description'>
+                <div className='descriptionHome'>
                     <h1>Développeur Front-end</h1>
                     <div className='descrioptionCheikh'>
                         Bonjour ! <br />

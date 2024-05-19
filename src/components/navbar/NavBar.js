@@ -18,7 +18,7 @@ function NavBar() {
 
             <div className='mobile'>
                 <button className='mobileButton' onClick={handlOnClick}>
-                    <img src={logoResponsiveClick} alt='Logo Menu responsive' />
+                    <img src={logoResponsiveClick} alt='Logo Menu responsive' />{" "}
                 </button>
             </div>
         </div>
