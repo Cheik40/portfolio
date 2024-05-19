@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font: Times, "Times New Roman", serif;
 }
 
 .bodyContact {
@@ -12,7 +13,7 @@
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-
+    font: Times, "Times New Roman", serif;
     /* background-image: url(../assets/aboutAntonia/appareilphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
@@ -28,10 +29,12 @@
     position: relative;
     width: 100%;
     height: 250px;
+    font: Times, "Times New Roman", serif;
 }
 
 .titleDescription h1 {
-    font-size: 2.4rem;
+    /* font-size: 2.4rem; */
+    font-size: 4rem;
     /* border: 2px rgb(21, 42, 177) solid; */
     padding: 10px;
 }
@@ -40,6 +43,7 @@
     font-size: 1.2rem;
     /* border: 2px rgb(187, 64, 64) solid; */
     padding: 10px;
+    font: "Times New Roman", serif;
 }
 
 .conteneurGridContact {
@@ -91,6 +95,7 @@
     /* border: 2px rgb(5, 11, 6) solid; */
     text-align: center;
     padding: 5px;
+    font: Times, "Times New Roman", serif;
 }
 
 .logoMail {
