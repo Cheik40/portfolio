@@ -19,6 +19,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { IoLogoSass } from "react-icons/io5";
 import { FaJava } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa6";
+import { SiMysql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 import NavBar from "../components/navbar/NavBar";
 import "../styles/skills.css";
@@ -90,6 +92,18 @@ function Skills() {
                                 style={{ width: "auto", height: "100%" }}
                             />
                             Python
+                        </div>
+                        <div className='iconJavascript'>
+                            <SiMysql
+                                style={{ width: "auto", height: "100%" }}
+                            />
+                            Mysql
+                        </div>
+                        <div className='iconJavascript'>
+                            <SiMongodb
+                                style={{ width: "auto", height: "100%" }}
+                            />
+                            Mongodb
                         </div>
                     </div>
                 </div>

@@ -302,6 +302,7 @@ img {
 
     img {
         background: red;
+        cursor: pointer;
     }
 }
 
